@@ -35,47 +35,8 @@ p.fancyname {
     font-style: italic;
     margin: 0%;
 
-    /* background: linear-gradient(
-        -30deg, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF, 
-        #14C4FF, #FF4444, 
-        #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF
-    ); */
-
     background: linear-gradient(30deg, #00ff44, #4f44f4);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-
-
-    /* animation: cyclebkr 8s ease-in-out infinite; */
 }
-/* @keyframes cyclebkr {
-    0% {
-        background: linear-gradient(
-        30deg,
-        #1484FF, #FF1414
-        );
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    50% {
-        background: linear-gradient(
-        30deg,
-        #1484FF, #14FF14
-        );
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    100% {
-        background: linear-gradient(
-        30deg,
-        #1484FF, #14C4FF
-        );
-
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-} */
