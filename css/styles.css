@@ -35,7 +35,7 @@ p.fancyname {
     font-style: italic;
     margin: 0%;
 
-    background: linear-gradient(30deg, #ffd900, #8000aa);
+    background: linear-gradient(30deg, #F41414, #F48484);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
