@@ -16,9 +16,7 @@ body {
 }
 
 .full {
-    width: 100%;
-    height: 100%;
-    display: table;
+    display: block;
     text-align: center;
     transform: translateY(35vh);
   }
@@ -27,15 +25,21 @@ body {
 a.social-link {
     text-decoration: none;
     margin: 0.5vw;
+    transition: ease-in-out 0.3s;
+    opacity: 80%;
 }
 
-p.fancyname {
+a.social-link:hover {
+    opacity: 100%;
+}
+
+.fancyname {
     font-size: 26px;
     font-weight: bold;
     font-style: italic;
     margin: 0%;
 
-    background: linear-gradient(0deg, #F4AA14, #444444);
+    background: linear-gradient(90deg, #F4F4F4, #B48444);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
