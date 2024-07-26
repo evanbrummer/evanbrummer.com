@@ -4,8 +4,9 @@
 1. download [ruby](https://rubyinstaller.org/downloads/) <- windows
 2. `gem install rails`
 3. `cd` into project
-4. run `ruby bin/rails server`
-5. profit
+4. run `bundle install`
+5. run `ruby bin/rails server`
+6. profit
 
 ---
 
