@@ -1,0 +1,46 @@
+[
+    {
+        "title": "UPPER A",
+        "lifts": [
+            "bench",
+            "rows",
+            "incl. DB press",
+            "lat pulldown",
+            "lat raise",
+            "tri pulldown",
+            "DB curls"
+        ]
+    },
+    {
+        "title": "LOWER A",
+        "lifts": [
+            "RDL",
+            "leg press",
+            "leg curls",
+            "calf raises",
+            "abs"
+        ]
+    },
+    {
+        "title": "UPPER B",
+        "lifts": [
+            "pull ups",
+            "bar shoulder press",
+            "seated cable row",
+            "DB bench",
+            "DB fly",
+            "bar curls",
+            "skull crushers"
+        ]
+    },
+    {
+        "title": "LOWER B",
+        "lifts": [
+            "squats",
+            "split squats",
+            "leg curls",
+            "calf raises",
+            "abs"
+        ]
+    }
+]
