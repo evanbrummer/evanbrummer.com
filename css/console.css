@@ -11,6 +11,13 @@ body {
 p {
     margin-top: 8px;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p input {
+    width: 50%;
+    margin-left: 10px;
 }
 
 input {

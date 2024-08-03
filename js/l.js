@@ -56,7 +56,7 @@ function init() {
 
                 workout.lifts.forEach(lift => {
                     let p = document.createElement("p");
-                    p.innerText = lift + " -- ";
+                    p.innerText = lift + " ";
                     let input = document.createElement("input");
                     input.onchange = () => {
                         localStorage.setItem(lift, input.value)
