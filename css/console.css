@@ -23,10 +23,13 @@ input {
     font-family: monospace;
     font-weight: 800;
     font-size: 16px;
+    max-width: 45%;
 }
 
 input[type="checkbox"] {
     accent-color: black;
+    flex: none;
+    max-width: 10%;
 }
 
 button {
@@ -36,4 +39,8 @@ button {
     border-color: white;
     min-width: 35px;
     min-height: 35px;
+}
+
+span {
+    min-width: 40%;
 }
