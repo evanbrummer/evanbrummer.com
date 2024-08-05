@@ -12,12 +12,7 @@ p {
     margin-top: 8px;
     margin-bottom: 8px;
     display: flex;
-    justify-content: space-between;
-}
-
-p input {
-    width: 50%;
-    margin-left: 10px;
+    vertical-align: middle;
 }
 
 input {
@@ -28,6 +23,10 @@ input {
     font-family: monospace;
     font-weight: 800;
     font-size: 16px;
+}
+
+input[type="checkbox"] {
+    accent-color: black;
 }
 
 button {

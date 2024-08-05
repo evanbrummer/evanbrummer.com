@@ -56,7 +56,14 @@ function init() {
 
                 workout.lifts.forEach(lift => {
                     let p = document.createElement("p");
-                    p.innerText = lift + " ";
+                    let checkbox = document.createElement("input");
+                    checkbox.type = "checkbox";
+                    p.appendChild(checkbox);
+                    let span = document.createElement("span");
+                    span.innerText = lift + " ";
+                    span.style.paddingLeft = "10px";
+                    span.style.paddingRight = "8px";
+                    p.appendChild(span);
                     let input = document.createElement("input");
                     input.onchange = () => {
                         localStorage.setItem(lift, input.value)
