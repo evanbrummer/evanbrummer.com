@@ -9,9 +9,9 @@ switch (dayOfWeek) {
         workoutIndex = 0;
         break;
     case "Tuesday":
+    case "Wednesday":
         workoutIndex = 1;
         break;
-    case "Wednesday":
     case "Thursday":
         workoutIndex = 2;
         break;
