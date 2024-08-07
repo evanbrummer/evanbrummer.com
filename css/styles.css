@@ -5,21 +5,15 @@ body {
     color: white;
 }
 
-#top-banner {
-    background-image: url(../images/java_collage.jpg);
-    background-size: cover;
-    height: 15vh;
-    width: 100%;
-    text-align: center;
-    display: table;
-    min-height: 5vh;    
+p {
+    margin-top: 0;
 }
 
 .full {
     display: block;
     text-align: center;
     transform: translateY(35vh);
-  }
+}
   
 
 a.social-link {
@@ -38,18 +32,10 @@ a.social-link:hover {
     font-weight: bold;
     font-style: italic;
     margin: 0%;
-
-    background: linear-gradient(90deg, #F4F4F4, #B48444);
+    background: linear-gradient(0deg, #bbdbc4, #44db88);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.console {
-    font-family: monospace;
-    font-weight: 800;
-    font-size: 16px;
-    margin: 10px;
 }
 
 input {
