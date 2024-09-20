@@ -32,7 +32,7 @@ a.social-link:hover {
     font-weight: bold;
     font-style: italic;
     margin: 0%;
-    background: linear-gradient(0deg, #bbdbc4, #44db88);
+    background: linear-gradient(0deg, #4AA844, #4AA844, #4AA844, #444CCC, #444CCC);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
