@@ -9,7 +9,7 @@ p {
     margin-top: 0;
 }
 
-.full {
+.intro {
     display: block;
     text-align: center;
     transform: translateY(35vh);
@@ -32,7 +32,7 @@ a.social-link:hover {
     font-weight: bold;
     font-style: italic;
     margin: 0%;
-    background: linear-gradient(0deg, #4AA844, #4AA844, #4AA844, #444CCC, #444CCC);
+    background: linear-gradient(0deg, #5f7504, #BEEB04);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
